@@ -1,11 +1,11 @@
 <!--
  * @Date: 2024-01-22 23:20:17
- * @LastEditTime: 2024-01-22 23:23:32
+ * @LastEditTime: 2024-01-22 23:25:00
  * @Author: wangyongjie
  * @Note:  
 -->
 <template>
-  <div>
+  <div class="app">
     内容
 
   </div>
@@ -25,7 +25,11 @@ export default {
   }
 }
 </script>
-<style lang="" scoped>
-  
+<style scoped>
+.app {
+  background: #ccc;
+  border: 1px solid #000;
+  padding: 20px;
+}
   
 </style>

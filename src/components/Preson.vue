@@ -1,9 +1,6 @@
 <template>
   <div class="Preson">
     {{name}}
-
-
-
   </div>
 </template>
 
@@ -19,8 +16,6 @@ export default {
           age:18
         }
       }
-
-
 
     }
   }

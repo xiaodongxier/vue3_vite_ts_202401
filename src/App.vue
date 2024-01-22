@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:20:17
- * @LastEditTime: 2024-01-22 23:31:40
+ * @LastEditTime: 2024-01-22 23:34:01
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -12,7 +12,8 @@
 </template>
 
 <script lang="ts">
-import Preson from './components/Person.vue';
+import Preson from './components/Preson.vue';
+
 export default {
   name: 'test',
   components: {
@@ -35,5 +36,4 @@ export default {
   border: 1px solid #000;
   padding: 20px;
 }
-  
 </style>

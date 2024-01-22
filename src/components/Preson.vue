@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-22 23:38:52
+ * @LastEditTime: 2024-01-22 23:40:53
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -16,12 +16,8 @@ export default {
   data() {
     return {
       description: 'Preson',
-      data(){
-        return{
-          name:'张三',
-          age:18
-        }
-      }
+      name:'张三',
+      age:18
 
     }
   }

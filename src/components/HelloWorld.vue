@@ -1,7 +1,15 @@
+<!--
+ * @Date: 2024-01-16 23:18:33
+ * @LastEditTime: 2024-01-22 22:17:45
+ * @Author: wangyongjie
+ * @Note:  
+-->
 <script setup lang="ts">
 defineProps<{
   msg: string
 }>()
+console.log(111)
+console.log(111)
 </script>
 
 <template>

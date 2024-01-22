@@ -1,3 +1,9 @@
+<!--
+ * @Date: 2024-01-16 23:18:33
+ * @LastEditTime: 2024-01-22 22:18:02
+ * @Author: wangyongjie
+ * @Note:  
+-->
 <script setup lang="ts">
 import WelcomeItem from './WelcomeItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
@@ -5,6 +11,7 @@ import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
+console.log("WelcomeItem")
 </script>
 
 <template>

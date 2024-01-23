@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-23 22:35:44
+ * @LastEditTime: 2024-01-23 22:37:54
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -11,22 +11,8 @@
   </div>
 </template>
 
-<script lang="ts">
-export default {
-  name: 'Preson111',
-  // setup(){
-  //   let name = "张三";
-  //   let age = 18;
-    // function handleClick(){
-    //   age += 1  // 没有生效, 因为这个时候数据不是响应式的
-    //   console.log('点击了', age);  
-    // }
-  //   return {name, age}
-  // }
-}
-</script>
 
-<script setup lang="ts" name=""ww222>
+<script setup lang="ts" name="www">
 let name = "张三";
 let age = 18;
 function handleClick(){

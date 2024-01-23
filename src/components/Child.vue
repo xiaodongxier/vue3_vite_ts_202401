@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ name.name }}-{{ name.age }}
+    {{ mydata.name }}-{{ mydata.age }}
     <button @click="handleClick">切换</button>
 
 
@@ -9,14 +9,15 @@
 
 <script lang="ts" setup>
 import { reactive, ref } from 'vue'
-let name = ref({
+let mydata = ref({
   name: '张三',
   age: 18
 })
 
-console.log(name)
+console.log(mydata.value)
 
 function handleClick() {
+  mydata.value.age  += 20
 }
 </script>
 <style lang="" scoped>

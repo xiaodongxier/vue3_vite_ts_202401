@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-23 22:03:25
+ * @LastEditTime: 2024-01-23 22:09:42
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -30,10 +30,11 @@ export default {
     let name = "张三";
     let age = 18;
     function handleClick(){
-      age += 1
-      console.log('点击了', age); 
+      age += 1  // 没有生效, 因为这个时候数据不是响应式的
+      console.log('点击了', age);  
     }
-    return {name, age,handleClick}
+    // return {name, age,handleClick}
+    return () => "2024"
   }
 }
 </script>

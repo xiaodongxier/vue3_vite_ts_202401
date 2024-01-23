@@ -8,8 +8,8 @@
 </template>
 
 <script lang="ts" setup>
-import { reactive } from 'vue'
-let name = reactive({
+import { reactive, ref } from 'vue'
+let name = ref({
   name: '张三',
   age: 18
 })
@@ -17,7 +17,6 @@ let name = reactive({
 console.log(name)
 
 function handleClick() {
-  name.age += 20
 }
 </script>
 <style lang="" scoped>

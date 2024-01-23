@@ -19,7 +19,6 @@ console.log(name)
 function handleClick() {
   name.age += 20
 }
-
 </script>
 <style lang="" scoped>
   

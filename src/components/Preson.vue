@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-23 22:26:02
+ * @LastEditTime: 2024-01-23 22:27:15
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -14,30 +14,27 @@
 <script lang="ts">
 export default {
   name: 'Preson',
-  data() {
-    return {
-      description: 'Preson',
-      name:'张三',
-      age:18,
-      hha: this.name
-    }
-  },
-  methods: {
-    handleClick(){
-      this.age += 1
-    }
-  },
-  setup(){
-    let name = "张三";
-    let age = 18;
-    function handleClick(){
-      age += 1  // 没有生效, 因为这个时候数据不是响应式的
-      console.log('点击了', age);  
-    }
-    return {name, age}
-  }
+  // setup(){
+  //   let name = "张三";
+  //   let age = 18;
+    // function handleClick(){
+    //   age += 1  // 没有生效, 因为这个时候数据不是响应式的
+    //   console.log('点击了', age);  
+    // }
+  //   return {name, age}
+  // }
 }
 </script>
+
+<script setup lang="ts">
+let name = "张三";
+let age = 18;
+function handleClick(){
+    age += 1
+    console.log('点击了', age);  
+  }
+</script>
+
 
 <style scoped>
 .Preson {

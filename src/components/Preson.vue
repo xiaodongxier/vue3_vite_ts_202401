@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-23 22:33:51
+ * @LastEditTime: 2024-01-23 22:35:44
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -13,7 +13,7 @@
 
 <script lang="ts">
 export default {
-  name: 'Preson',
+  name: 'Preson111',
   // setup(){
   //   let name = "张三";
   //   let age = 18;
@@ -26,7 +26,7 @@ export default {
 }
 </script>
 
-<script setup lang="ts">
+<script setup lang="ts" name=""ww222>
 let name = "张三";
 let age = 18;
 function handleClick(){

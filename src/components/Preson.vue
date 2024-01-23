@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-23 22:37:54
+ * @LastEditTime: 2024-01-23 22:43:55
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -12,7 +12,7 @@
 </template>
 
 
-<script setup lang="ts" name="www">
+<script setup lang="ts" name="Preson">
 let name = "张三";
 let age = 18;
 function handleClick(){

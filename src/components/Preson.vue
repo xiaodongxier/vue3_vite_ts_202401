@@ -1,12 +1,12 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-23 22:15:09
+ * @LastEditTime: 2024-01-23 22:18:12
  * @Author: wangyongjie
  * @Note:  
 -->
 <template>
   <div class="Preson">
-    {{name}} - {{ age }}
+    {{name}} - {{ age }} -- {{ hha }}
     <button @click="handleClick">点击</button>
   </div>
 </template>
@@ -18,7 +18,8 @@ export default {
     return {
       description: 'Preson',
       name:'张三',
-      age:18
+      age:18,
+      hha: this.name
     }
   },
   methods: {

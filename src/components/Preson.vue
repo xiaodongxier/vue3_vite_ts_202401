@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-23 22:19:53
+ * @LastEditTime: 2024-01-23 22:26:02
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -35,7 +35,6 @@ export default {
       console.log('点击了', age);  
     }
     return {name, age}
-    // return () => "2024"
   }
 }
 </script>

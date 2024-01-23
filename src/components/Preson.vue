@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-22 23:40:53
+ * @LastEditTime: 2024-01-23 21:11:36
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -18,7 +18,6 @@ export default {
       description: 'Preson',
       name:'张三',
       age:18
-
     }
   }
 }

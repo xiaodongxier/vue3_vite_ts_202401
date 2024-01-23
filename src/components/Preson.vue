@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-23 21:52:42
+ * @LastEditTime: 2024-01-23 21:55:26
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -14,17 +14,22 @@
 <script lang="ts">
 export default {
   name: 'Preson',
-  data() {
-    return {
-      description: 'Preson',
-      name:'张三',
-      age:18
-    }
-  },
-  methods: {
-    handleClick(){
-      this.age += 1
-    }
+  // data() {
+  //   return {
+  //     description: 'Preson',
+  //     name:'张三',
+  //     age:18
+  //   }
+  // },
+  // methods: {
+  //   handleClick(){
+  //     this.age += 1
+  //   }
+  // }
+  setup(){
+    let name = "张三";
+    let age = 18;
+    return {name, age}
   }
 }
 </script>

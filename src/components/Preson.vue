@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-23 22:27:15
+ * @LastEditTime: 2024-01-23 22:33:51
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -31,8 +31,8 @@ let name = "张三";
 let age = 18;
 function handleClick(){
     age += 1
-    console.log('点击了', age);  
-  }
+  console.log('点击了', age);  
+}
 </script>
 
 

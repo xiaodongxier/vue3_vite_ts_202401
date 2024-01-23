@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-23 22:09:42
+ * @LastEditTime: 2024-01-23 22:15:09
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -14,18 +14,18 @@
 <script lang="ts">
 export default {
   name: 'Preson',
-  // data() {
-  //   return {
-  //     description: 'Preson',
-  //     name:'张三',
-  //     age:18
-  //   }
-  // },
-  // methods: {
-  //   handleClick(){
-  //     this.age += 1
-  //   }
-  // }
+  data() {
+    return {
+      description: 'Preson',
+      name:'张三',
+      age:18
+    }
+  },
+  methods: {
+    handleClick(){
+      this.age += 1
+    }
+  },
   setup(){
     let name = "张三";
     let age = 18;
@@ -33,8 +33,8 @@ export default {
       age += 1  // 没有生效, 因为这个时候数据不是响应式的
       console.log('点击了', age);  
     }
-    // return {name, age,handleClick}
-    return () => "2024"
+    return {name, age}
+    // return () => "2024"
   }
 }
 </script>

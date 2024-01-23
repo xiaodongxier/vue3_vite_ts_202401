@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-23 21:55:26
+ * @LastEditTime: 2024-01-23 22:03:25
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -29,7 +29,11 @@ export default {
   setup(){
     let name = "张三";
     let age = 18;
-    return {name, age}
+    function handleClick(){
+      age += 1
+      console.log('点击了', age); 
+    }
+    return {name, age,handleClick}
   }
 }
 </script>

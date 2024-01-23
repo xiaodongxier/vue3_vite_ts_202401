@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:20:17
- * @LastEditTime: 2024-01-23 21:50:13
+ * @LastEditTime: 2024-01-23 22:54:37
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -8,16 +8,19 @@
   <div class="app">
     APP
     <Preson />
+    <Child />
   </div>
 </template>
 
 <script lang="ts">
 import Preson from './components/Preson.vue';
+import Child from './components/Child.vue';
 
 export default {
   name: 'test',
   components: {
-    Preson
+    Preson,
+    Child
   },
   data() {
     return {

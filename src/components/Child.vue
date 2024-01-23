@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ name }}-{{ age }}
+    {{ name.name }}-{{ name.age }}
 
 
 
@@ -9,8 +9,10 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-let name =ref("zhansg");
-let age = ref(118)
+let name = {
+  name: '张三',
+  age: 18
+}
 </script>
 <style lang="" scoped>
   

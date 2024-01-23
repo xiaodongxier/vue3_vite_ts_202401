@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-23 22:43:55
+ * @LastEditTime: 2024-01-23 22:47:47
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -13,10 +13,11 @@
 
 
 <script setup lang="ts" name="Preson">
-let name = "张三";
-let age = 18;
+import {ref} from 'vue'
+let name = ref("张三");
+let age = ref(18);
 function handleClick(){
-    age += 1
+    age.value += 1
   console.log('点击了', age);  
 }
 </script>

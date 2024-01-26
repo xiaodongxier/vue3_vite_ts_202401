@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-26 09:23:33
+ * @LastEditTime: 2024-01-26 09:24:38
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -8,7 +8,7 @@
   <div class="Preson">
     姓：<input type="text" v-model="firstName">
     名：<input type="text" v-model="lasterName">
-    姓名：<span>？？？？</span>
+    姓名：<span>{{firstName}} - {{ lasterName }}}</span>
 
     <button @click="handleEditName">
       修改名字

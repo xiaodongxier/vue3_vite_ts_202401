@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-26 09:18:26
+ * @LastEditTime: 2024-01-26 09:23:33
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -23,7 +23,7 @@ let lasterName = ref("hhha")
 
 
 function handleEditName(){
-  lasterName +=  "++"
+  lasterName.value += "="
 }
 
 </script>

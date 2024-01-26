@@ -11,8 +11,8 @@
     姓名：<span>？？？？</span>
 
     <button @click="handleEditName">
-    修改名字
-  </button>
+      修改名字
+    </button>
   </div>
 </template>
 

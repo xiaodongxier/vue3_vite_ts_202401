@@ -38,7 +38,7 @@ function handleClickC(){
   mydata.value.a.b.c += 100
 }
 </script>
-<style lang="" scoped>
+<style  scoped>
 .child {
   background: #ccc;
   border: 1px solid #000;

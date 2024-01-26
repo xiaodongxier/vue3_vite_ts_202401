@@ -23,7 +23,7 @@ let lasterName = ref("hhha")
 
 
 function handleEditName(){
-  firstName +=  "++"
+  lasterName +=  "++"
 }
 
 </script>

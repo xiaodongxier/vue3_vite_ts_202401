@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="child">
     {{ mydata.name }}-{{ mydata.age }}
     <button @click="handleClick">切换</button>
     <hr>
@@ -33,8 +33,9 @@ function handleClickC(){
 }
 </script>
 <style lang="" scoped>
-  
-  
-  
-  
+.child {
+  background: #ccc;
+  border: 1px solid #000;
+  padding: 20px;
+}
 </style>

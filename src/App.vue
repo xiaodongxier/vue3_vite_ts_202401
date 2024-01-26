@@ -1,12 +1,11 @@
 <!--
  * @Date: 2024-01-22 23:20:17
- * @LastEditTime: 2024-01-24 21:42:27
+ * @LastEditTime: 2024-01-26 09:23:52
  * @Author: wangyongjie
  * @Note:  
 -->
 <template>
   <div class="app">
-    APP
     <Preson />
     <Child />
   </div>

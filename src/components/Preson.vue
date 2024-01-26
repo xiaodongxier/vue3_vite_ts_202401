@@ -19,7 +19,7 @@
 <script setup lang="ts" name="Preson">
 import { ref } from 'vue'
 let firstName = "wang";
-let lasterName = "kkkmdekdmekdke"
+let lasterName = ref("kkkmdekdmekdke")
 
 
 function handleEditName(){

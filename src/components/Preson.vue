@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:27:13
- * @LastEditTime: 2024-01-24 22:18:47
+ * @LastEditTime: 2024-01-26 09:18:26
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -10,6 +10,9 @@
     名：<input type="text" v-model="lasterName">
     姓名：<span>？？？？</span>
   </div>
+  <button @click="handleEditName">
+    修改名字
+  </button>
 </template>
 
 
@@ -17,6 +20,12 @@
 import { ref } from 'vue'
 let firstName = "wang";
 let lasterName = "kkkmdekdmekdke"
+
+
+function handleEditName(){
+  firstName +=  "++"
+}
+
 </script>
 
 

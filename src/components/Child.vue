@@ -1,3 +1,9 @@
+<!--
+ * @Date: 2024-01-23 22:52:45
+ * @LastEditTime: 2024-01-26 09:25:28
+ * @Author: wangyongjie
+ * @Note:  
+-->
 <template>
   <div class="child">
     {{ mydata.name }}-{{ mydata.age }}

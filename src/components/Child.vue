@@ -43,5 +43,6 @@ function handleClickC(){
   background: #ccc;
   border: 1px solid #000;
   padding: 20px;
+  margin-top: 20px;
 }
 </style>

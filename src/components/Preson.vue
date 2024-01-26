@@ -9,10 +9,11 @@
     姓：<input type="text" v-model="firstName">
     名：<input type="text" v-model="lasterName">
     姓名：<span>？？？？</span>
-  </div>
-  <button @click="handleEditName">
+
+    <button @click="handleEditName">
     修改名字
   </button>
+  </div>
 </template>
 
 

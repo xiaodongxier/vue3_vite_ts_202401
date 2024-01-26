@@ -8,7 +8,7 @@
   <div class="Preson">
     姓：<input type="text" v-model="firstName">
     名：<input type="text" v-model="lasterName">
-    姓名：<span>{{firstName}} - {{ lasterName }}}</span>
+    姓名：<span>{{firstName}} - {{ lasterName }}</span>
 
     <button @click="handleEditName">
       修改名字

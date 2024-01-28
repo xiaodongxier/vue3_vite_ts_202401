@@ -7,19 +7,9 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'test',
-  data() {
-    return {
-      description: '项目信息'
-
-
-
-
-    }
-  }
-}
+<script setup lang="ts">
+const n = ref(0);
+console.log(n.value);
 </script>
 <style lang="" scoped>
 </style>

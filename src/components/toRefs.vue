@@ -38,10 +38,12 @@ console.log("解构赋值", name, age);
 // 方法
 function handleName(){
   name += '~'
+  console.log("handleName",name);
 }
 
 function handleAge(){
   age ++
+  console.log("handleAge",age);
 }
 
 </script>

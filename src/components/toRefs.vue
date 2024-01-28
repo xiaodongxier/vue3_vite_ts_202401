@@ -15,6 +15,7 @@
 
 <script setup lang="ts">
 import { ref, reactive } from 'vue';
+// 数据
 const name = "toRefs";
 const n = ref(0);
 const info = reactive({
@@ -28,6 +29,7 @@ const info = reactive({
 })
 console.log(n.value);
 
+// 方法
 function handleName(){
   info.name += '~'
 }

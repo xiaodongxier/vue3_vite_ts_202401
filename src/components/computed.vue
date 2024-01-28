@@ -19,7 +19,7 @@ const info = reactive({
   lastName: "三",
 })
 
-cosnt fullName = computed(()=>{
+const fullName = computed(()=>{
   return "!1111"
 })
 

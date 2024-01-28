@@ -20,7 +20,7 @@ const info = reactive({
 })
 
 const fullName = computed(()=>{
-  return "!1111"
+  return info.firstName + info.lastName
 })
 
 </script>

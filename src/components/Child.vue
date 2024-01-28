@@ -11,8 +11,6 @@
     <hr>
     {{ mydata.a.b.c }}
     <button @click="handleClickC">切换</button>
-
-
   </div>
 </template>
 

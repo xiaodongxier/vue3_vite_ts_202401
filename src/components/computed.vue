@@ -11,7 +11,8 @@
     全名：{{ fullName1() }}
     <br>
     全名：{{ fullName1() }}
-
+    <br>
+    <button @click="handleName()">改为李四</button>
   </div>
 </template>
 
@@ -37,7 +38,7 @@ const fullName = computed(()=>{
 
 
 
-function fullName2(){
+function handleName(){
   console.log("方法调用了一次");
 }
 </script>

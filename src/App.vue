@@ -11,6 +11,7 @@
     <toRefs />
     <computed/>
     <watch/>
+    <watch1/>
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import Child from './components/Child.vue';
 import toRefs from './components/toRefs.vue';
 import computed from './components/computed.vue';
 import watch from './components/watch.vue';
+import watch1 from './components/watch1.vue';
 
 export default {
   name: 'test',
@@ -28,7 +30,8 @@ export default {
     Child,
     toRefs,
     computed,
-    watch
+    watch,
+    watch1
   },
   data() {
     return {

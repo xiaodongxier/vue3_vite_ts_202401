@@ -2,6 +2,7 @@
   <div class="child-wrap">
     {{ title }}
     姓：{{ info.firstName }}
+    <br>
     名：{{ info.lastName }}
 
 

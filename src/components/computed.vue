@@ -6,6 +6,7 @@
     名：{{ info.lastName }}
     <br>
     全名：{{ fullName }}
+    全名：{{ fullName }}
 
   </div>
 </template>

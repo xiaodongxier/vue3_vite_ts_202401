@@ -11,7 +11,9 @@
 import { ref,reactive } from 'vue';
 const title = ref("computed相关")
 const info = reactive({
-  title: "computed"
+  title: "computed",
+  firstName: "张",
+  lastNamr: "三",
 })
 
 </script>

@@ -1,7 +1,8 @@
 <template>
   <div class="child-wrap">
     {{ title }}
-
+    姓：{{ info.firstName }}
+    名：{{ info.lastName }}
 
 
   </div>
@@ -13,7 +14,7 @@ const title = ref("computed相关")
 const info = reactive({
   title: "computed",
   firstName: "张",
-  lastNamr: "三",
+  lastName: "三",
 })
 
 </script>

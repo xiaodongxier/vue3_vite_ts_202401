@@ -50,8 +50,6 @@ const fullName = computed({
   },
 })
 
-
-
 function handleName(){
   fullName.value = "li-si"
   console.log(fullName.value);

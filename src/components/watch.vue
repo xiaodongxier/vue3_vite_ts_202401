@@ -20,7 +20,7 @@ import { ref } from 'vue';
 const title = ref("watch相关")
 const sum = ref(0);
 function handleClick(){
-  sum += 1
+  sum.value += 1
 }
 
 </script>

@@ -9,6 +9,7 @@
     <Preson />
     <Child />
     <toRefs />
+    <computed/>
   </div>
 </template>
 
@@ -16,13 +17,15 @@
 import Preson from './components/Preson.vue';
 import Child from './components/Child.vue';
 import toRefs from './components/toRefs.vue';
+import computed from './components/computed.vue';
 
 export default {
   name: 'test',
   components: {
     Preson,
     Child,
-    toRefs
+    toRefs,
+    computed
   },
   data() {
     return {

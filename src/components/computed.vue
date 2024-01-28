@@ -15,11 +15,12 @@ import { ref,reactive, computed } from 'vue';
 const title = ref("computed相关")
 const info = reactive({
   title: "computed",
-  firstName: "张",
-  lastName: "三",
+  firstName: "zhang",
+  lastName: "san",
 })
 
 const fullName = computed(()=>{
+  // return info.firstName + info.lastName
   return info.firstName + info.lastName
 })
 

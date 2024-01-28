@@ -9,7 +9,7 @@
     <h3>{{title}}</h3>
     求和：{{ sum }}
     <br>
-    <button @click="sum++">点击</button>
+    <button @click="handleClick">点击</button>
 
 
   </div>
@@ -19,7 +19,9 @@
 import { ref } from 'vue';
 const title = ref("watch相关")
 const sum = ref(0);
-
+function handleClick(){
+  sum += 1
+}
 
 </script>
 <style lang="" scoped></style>

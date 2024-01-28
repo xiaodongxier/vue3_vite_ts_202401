@@ -21,7 +21,7 @@ const info = reactive({
 
 const fullName = computed(()=>{
   // return info.firstName + info.lastName
-  return info.firstName.slice(0,1).toUpperCase() + info.firstName.slice(-1) + "-" +  info.lastName
+  return info.firstName.slice(0,1).toUpperCase() + info.firstName.slice(-0) + "-" +  info.lastName
 })
 
 </script>

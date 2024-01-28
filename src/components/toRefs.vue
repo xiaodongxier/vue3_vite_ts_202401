@@ -42,7 +42,7 @@ function handleName(){
 
 function handleAge(){
   age.value ++
-  console.log("handleAge",,age.value, info.age, info);
+  console.log("handleAge",age.value, info.age, info);
 }
 
 </script>

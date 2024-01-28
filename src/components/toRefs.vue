@@ -5,6 +5,8 @@
     姓名：{{ info.name }}
     <br>
     年龄：{{ info.age }}
+    <br>
+    薪资：{{ info.job.j1.salary }}
   </div>
 </template>
 

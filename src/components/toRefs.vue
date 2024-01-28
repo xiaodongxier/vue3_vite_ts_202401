@@ -1,6 +1,6 @@
 <template>
   <div class="child-wrap">
-    标题: {{ title }}
+    标题: {{ name }}
     <br>
     姓名：{{ info.name }}
     <br>
@@ -34,14 +34,13 @@ const { name, age } = info
 
 console.log("解构赋值", name, age);
 
-
 // 方法
 function handleName(){
-  name += '~'
+  info.name += '~'
 }
 
 function handleAge(){
-  age ++
+  info.age ++
 }
 
 </script>

@@ -10,6 +10,7 @@
     <Child />
     <toRefs />
     <computed/>
+    <watch/>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import Preson from './components/Preson.vue';
 import Child from './components/Child.vue';
 import toRefs from './components/toRefs.vue';
 import computed from './components/computed.vue';
+import watch from './components/watch.vue';
 
 export default {
   name: 'test',
@@ -25,7 +27,8 @@ export default {
     Preson,
     Child,
     toRefs,
-    computed
+    computed,
+    watch
   },
   data() {
     return {

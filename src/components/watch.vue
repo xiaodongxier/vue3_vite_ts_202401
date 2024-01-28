@@ -1,3 +1,9 @@
+<!--
+ * @Date: 2024-01-28 17:58:58
+ * @LastEditTime: 2024-01-28 21:36:00
+ * @Author: wangyongjie
+ * @Note:  
+-->
 <template>
   <div class="child-wrap">
     <h3>{{title}}</h3>

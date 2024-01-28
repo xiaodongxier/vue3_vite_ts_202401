@@ -6,8 +6,6 @@
     <br>
     年龄：{{ age }}
     <br>
-    薪资：{{ job.j1.salary }}
-    <br>
     <button @click="handleName">切换名字</button>
     <button @click="handleAge">切换年龄</button>
   </div>
@@ -21,11 +19,6 @@ const n = ref(0);
 const info = reactive({
   name: '张三',
   age: 18,
-  job: {
-    j1: {
-      salary: 20
-    }
-  }
 })
 console.log(n.value);
 

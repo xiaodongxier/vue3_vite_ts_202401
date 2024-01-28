@@ -49,6 +49,7 @@ const fullName = computed({
 
 function handleName(){
   fullName.value = "李四"
+  console.log(fullName.value);
 }
 </script>
 <style lang="" scoped></style>

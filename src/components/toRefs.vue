@@ -28,7 +28,7 @@ const info = reactive({
 console.log(n.value);
 
 function handleAge(){
-  n.value++;
+  info.age ++
 }
 </script>
 <style lang="" scoped>

@@ -29,9 +29,7 @@ const info = reactive({
 })
 console.log(n.value);
 
-
 const { name, age } = info
-
 console.log("解构赋值", name, age);
 
 // 方法

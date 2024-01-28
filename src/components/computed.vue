@@ -40,7 +40,8 @@ const fullName = computed({
   get(){
     return info.firstName.slice(0,1).toUpperCase() + info.firstName.slice(1) + "-" +  info.lastName
   },
-  set(){
+  set(val){
+    console.log("set方法被调用了",val);
     return '2'
   },
 })

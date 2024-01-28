@@ -34,15 +34,14 @@ const { name, age } = toRefs(info)
 
 console.log("解构赋值", name, age);
 
-
 // 方法
 function handleName(){
   name.value += '~'
-  console.log("handleName",name);
+  console.log("handleName",name.value);
 }
 
 function handleAge(){
-  age ++
+  age.value ++
   console.log("handleAge",age);
 }
 

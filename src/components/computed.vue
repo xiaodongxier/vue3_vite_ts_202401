@@ -39,7 +39,7 @@ const fullName = computed(()=>{
 
 
 function handleName(){
-  console.log("方法调用了一次");
+  console.log(fullName);
 }
 </script>
 <style lang="" scoped></style>

@@ -46,7 +46,7 @@ function handleAge(){
 }
 
 function handleHeight(){
-  age.height ++
+  height.value ++
   console.log("handleHeight",age.value, info.age, info);
 }
 

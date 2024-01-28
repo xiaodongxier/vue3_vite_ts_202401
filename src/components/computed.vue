@@ -21,7 +21,7 @@ const info = reactive({
 
 const fullName = computed(()=>{
   // return info.firstName + info.lastName
-  return info.firstName + info.lastName
+  return info.firstName + "-" +  info.lastName
 })
 
 </script>

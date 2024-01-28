@@ -8,6 +8,8 @@
     全名：{{ fullName }}
     <br>
     全名：{{ fullName }}
+    <br>
+    全名：{{ fullName }}
 
   </div>
 </template>

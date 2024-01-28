@@ -1,6 +1,6 @@
 <template>
   <div class="child-wrap">
-    标题: {{ name }}
+    标题: {{ title }}
     <br>
     姓名：{{ info.name }}
     <br>
@@ -16,7 +16,7 @@
 <script setup lang="ts">
 import { ref, reactive } from 'vue';
 // 数据
-const name = "toRefs";
+const title = "toRefs";
 const n = ref(0);
 const info = reactive({
   name: '张三',

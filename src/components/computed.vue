@@ -6,11 +6,11 @@
     <br>
     名：<input v-model="info.lastName">
     <br>
-    全名：{{ fullName }}
+    全名：{{ fullName1() }}
     <br>
-    全名：{{ fullName }}
+    全名：{{ fullName1() }}
     <br>
-    全名：{{ fullName }}
+    全名：{{ fullName1() }}
 
   </div>
 </template>
@@ -24,8 +24,11 @@ const info = reactive({
   lastName: "san",
 })
 
+function fullName1(){
+  return info.firstName.slice(0,1).toUpperCase() + info.firstName.slice(1) + "-" +  info.lastName
+}
+
 const fullName = computed(()=>{
-  // return info.firstName + info.lastName
   console.log("computed调用了一次");
   return info.firstName.slice(0,1).toUpperCase() + info.firstName.slice(1) + "-" +  info.lastName
 })

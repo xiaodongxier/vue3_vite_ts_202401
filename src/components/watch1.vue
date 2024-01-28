@@ -15,7 +15,7 @@
 
 <script setup lang="ts">
 import { ref , watch} from 'vue';
-const title = ref("watch相关")
+const title = ref("watch相关-监视ref定义的对象类型")
 const sum = ref(0);
 
 

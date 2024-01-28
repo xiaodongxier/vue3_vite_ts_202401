@@ -21,6 +21,7 @@ const info = reactive({
 
 const fullName = computed(()=>{
   // return info.firstName + info.lastName
+  console.log("computed调用了一次");
   return info.firstName.slice(0,1).toUpperCase() + info.firstName.slice(1) + "-" +  info.lastName
 })
 

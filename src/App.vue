@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:20:17
- * @LastEditTime: 2024-01-28 15:42:11
+ * @LastEditTime: 2024-01-28 15:43:28
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -38,5 +38,15 @@ export default {
   background: #ccc;
   border: 1px solid #000;
   padding: 20px;
+}
+</style>
+
+<style>
+
+.child-wrap {
+  background: #ccc;
+  border: 1px solid #000;
+  padding: 20px;
+  margin-top: 20px;
 }
 </style>

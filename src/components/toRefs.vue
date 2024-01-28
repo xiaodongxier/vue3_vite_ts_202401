@@ -12,7 +12,7 @@ export default {
   name: 'test',
   data() {
     return {
-description: '项目信息'
+      description: '项目信息'
 
 
 

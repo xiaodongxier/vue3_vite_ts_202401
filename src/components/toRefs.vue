@@ -2,11 +2,11 @@
   <div class="child-wrap">
     标题: {{ title }}
     <br>
-    姓名：{{ info.name }}
+    姓名：{{ name }}
     <br>
-    年龄：{{ info.age }}
+    年龄：{{ age }}
     <br>
-    薪资：{{ info.job.j1.salary }}
+    薪资：{{ job.j1.salary }}
     <br>
     <button @click="handleName">切换名字</button>
     <button @click="handleAge">切换年龄</button>

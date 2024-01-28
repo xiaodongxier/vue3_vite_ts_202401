@@ -1,11 +1,11 @@
 <!--
  * @Date: 2024-01-23 22:52:45
- * @LastEditTime: 2024-01-28 15:38:59
+ * @LastEditTime: 2024-01-28 15:43:38
  * @Author: wangyongjie
  * @Note:  
 -->
 <template>
-  <div class="child">
+  <div class="child-wrap">
     {{ mydata.name }}-{{ mydata.age }}
     <button @click="handleClick">切换</button>
     <hr>
@@ -41,10 +41,4 @@ function handleClickC(){
 
 </script>
 <style  scoped>
-.child {
-  background: #ccc;
-  border: 1px solid #000;
-  padding: 20px;
-  margin-top: 20px;
-}
 </style>

@@ -4,18 +4,23 @@
     姓：{{ info.firstName }}
     <br>
     名：{{ info.lastName }}
-
+    <br>
+    全名：{{ fullName }}
 
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref,reactive } from 'vue';
+import { ref,reactive, computed } from 'vue';
 const title = ref("computed相关")
 const info = reactive({
   title: "computed",
   firstName: "张",
   lastName: "三",
+})
+
+cosnt fullName = computed(()=>{
+  return "!1111"
 })
 
 </script>

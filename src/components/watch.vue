@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-28 17:58:58
- * @LastEditTime: 2024-01-28 21:43:48
+ * @LastEditTime: 2024-01-28 21:45:10
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -9,7 +9,7 @@
     <h3>{{title}}</h3>
     求和：{{ sum }}
     <br>
-    <button @click="handleClick">点击</button>
+    <button @click="handleClick">点击5下停止监听</button>
 
 
   </div>

@@ -17,7 +17,7 @@
 <script setup lang="ts">
 import { ref, reactive, toRefs,toRef } from 'vue';
 // 数据
-const title = "toRefs";
+const title = "toRefs & toRef";
 const n = ref(0);
 const info = reactive({
   name: '张三',

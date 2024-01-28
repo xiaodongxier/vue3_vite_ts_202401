@@ -7,6 +7,8 @@
     年龄：{{ info.age }}
     <br>
     薪资：{{ info.job.j1.salary }}
+    <br>
+    n: {{ n }}
   </div>
 </template>
 

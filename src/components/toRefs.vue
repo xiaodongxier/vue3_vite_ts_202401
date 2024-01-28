@@ -19,6 +19,7 @@ const n = ref(0);
 const info = reactive({
   name: '张三',
   age: 18,
+  height: 1.88
 })
 console.log(n.value);
 
@@ -26,6 +27,9 @@ console.log(n.value);
 const { name, age } = toRefs(info)
 
 console.log("解构赋值", name, age);
+
+const h = toRefs(info, 'height');
+console.log("toRefs", h);
 
 // 方法
 function handleName(){

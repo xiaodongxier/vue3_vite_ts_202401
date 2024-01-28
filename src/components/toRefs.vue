@@ -1,14 +1,12 @@
 <template>
   <div class="child-wrap">
-    1
-
-
-
+    {{ name }}
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue';
+const name = "toRefs";
 const n = ref(0);
 console.log(n.value);
 </script>

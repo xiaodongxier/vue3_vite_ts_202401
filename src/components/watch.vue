@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-28 17:58:58
- * @LastEditTime: 2024-01-28 21:38:06
+ * @LastEditTime: 2024-01-28 21:41:49
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -23,9 +23,12 @@ function handleClick(){
   sum.value += 1
 }
 
-watch(sum, (newValue, oldValue)=> {
+const stopWatch =  watch(sum, (newValue, oldValue)=> {
   console.log("sum变化了-新值", newValue);
   console.log("sum变化了-旧值", oldValue);
+  if(newValue > 5){
+    stopWatch()
+  }
 })
 </script>
 <style lang="" scoped></style>

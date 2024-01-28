@@ -52,7 +52,7 @@ const fullName = computed({
 
 
 function handleName(){
-  fullName.value = "李四"
+  fullName.value = "li-si"
   console.log(fullName.value);
 }
 </script>

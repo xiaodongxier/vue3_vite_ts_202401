@@ -8,7 +8,8 @@
 </template>
 
 <script setup lang="ts">
-import { reactive } from 'vue';
+import { ref,reactive } from 'vue';
+const title = ref("computed相关")
 const info = reactive({
   title: "computed"
 })

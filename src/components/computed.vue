@@ -25,6 +25,7 @@ const info = reactive({
 })
 
 function fullName1(){
+  console.log("方法调用了一次");
   return info.firstName.slice(0,1).toUpperCase() + info.firstName.slice(1) + "-" +  info.lastName
 }
 

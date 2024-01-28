@@ -30,6 +30,7 @@ console.log(n.value);
 function handleAge(){
   info.age ++
 }
+
 </script>
 <style lang="" scoped>
 </style>

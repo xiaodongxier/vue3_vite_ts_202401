@@ -29,7 +29,7 @@ const { name, age } = toRefs(info)
 console.log("解构赋值", name, age);
 
 const h = toRefs(info, 'height');
-console.log("toRef", h);
+console.log("toRef", h.value);
 
 // 方法
 function handleName(){

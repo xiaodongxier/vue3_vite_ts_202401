@@ -8,6 +8,7 @@
     <br>
     薪资：{{ info.job.j1.salary }}
     <br>
+    <button @click="handleAge">切换</button>
   </div>
 </template>
 
@@ -26,6 +27,9 @@ const info = reactive({
 })
 console.log(n.value);
 
+function handleAge(){
+  n.value++;
+}
 </script>
 <style lang="" scoped>
 </style>

@@ -28,6 +28,7 @@ const stopWatch =  watch(sum, (newValue, oldValue)=> {
   console.log("sum变化了-旧值", oldValue);
   if(newValue > 5){
     stopWatch()
+    console.log("停止监听");
   }
 })
 </script>

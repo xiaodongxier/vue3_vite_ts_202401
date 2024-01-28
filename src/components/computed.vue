@@ -1,6 +1,7 @@
 <template>
   <div class="child-wrap">
     {{ title }}
+    <br>
     姓：<input v-model="info.firstName">
     <br>
     名：<input v-model="info.lastName">

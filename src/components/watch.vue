@@ -9,7 +9,7 @@
     <h3>{{title}}</h3>
     求和：{{ sum }}
     <br>
-    <button @click="handleClick">点击5下停止监听</button>
+    <button @click="handleClick">点击6下停止监听</button>
 
 
   </div>

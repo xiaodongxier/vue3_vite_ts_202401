@@ -22,8 +22,4 @@ description: '项目信息'
 }
 </script>
 <style lang="" scoped>
-  
-  
-  
-  
 </style>

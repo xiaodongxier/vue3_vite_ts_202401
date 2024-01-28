@@ -3,6 +3,8 @@
     标题: {{ name }}
     <br>
     姓名：{{ info.name }}
+    <br>
+    年龄：{{ info.age }}
   </div>
 </template>
 

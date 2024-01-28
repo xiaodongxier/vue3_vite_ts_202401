@@ -6,6 +6,8 @@
     <br>
     年龄：{{ age }}
     <br>
+    年龄：{{ height }}
+    <br>
     <button @click="handleName">切换名字</button>
     <button @click="handleAge">切换年龄</button>
     <button @click="handleHeight">切换身高</button>

@@ -8,7 +8,6 @@
     <br>
     薪资：{{ info.job.j1.salary }}
     <br>
-    n: {{ n }}
   </div>
 </template>
 

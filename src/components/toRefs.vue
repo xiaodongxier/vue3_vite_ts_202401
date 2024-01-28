@@ -37,12 +37,12 @@ console.log("解构赋值", name, age);
 
 // 方法
 function handleName(){
-  // name += '~'
+  name += '~'
   console.log("handleName",name);
 }
 
 function handleAge(){
-  // age ++
+  age ++
   console.log("handleAge",age);
 }
 

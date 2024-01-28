@@ -29,6 +29,7 @@ function fullName1(){
   return info.firstName.slice(0,1).toUpperCase() + info.firstName.slice(1) + "-" +  info.lastName
 }
 
+// 这么定义的 fullName 是只读的计算属性
 const fullName = computed(()=>{
   console.log("computed调用了一次");
   return info.firstName.slice(0,1).toUpperCase() + info.firstName.slice(1) + "-" +  info.lastName

@@ -29,7 +29,7 @@ const stopWatch =  watch(sum, (newValue, oldValue)=> {
   if(newValue > 5){
     stopWatch()
     console.log("停止监听");
-    title.value = "停止监听"
+    title.value = "watch相关-停止监听"
   }
 })
 </script>

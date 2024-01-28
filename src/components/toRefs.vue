@@ -1,6 +1,6 @@
 <template>
   <div class="child-wrap">
-    标题: {{ name }}
+    标题: {{ title }}
     <br>
     姓名：{{ info.name }}
     <br>

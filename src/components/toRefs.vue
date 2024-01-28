@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, reactive } from 'vue';
+import { ref, reactive, toRefs } from 'vue';
 // 数据
 const title = "toRefs";
 const n = ref(0);
@@ -30,7 +30,7 @@ const info = reactive({
 console.log(n.value);
 
 
-const { name, age } = info
+const { name, age } = toRefs(info)
 
 console.log("解构赋值", name, age);
 

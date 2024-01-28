@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:20:17
- * @LastEditTime: 2024-01-26 09:23:52
+ * @LastEditTime: 2024-01-28 15:42:11
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -8,18 +8,21 @@
   <div class="app">
     <Preson />
     <Child />
+    <toRefs />
   </div>
 </template>
 
 <script lang="ts">
 import Preson from './components/Preson.vue';
 import Child from './components/Child.vue';
+import toRefs from './components/toRefs.vue';
 
 export default {
   name: 'test',
   components: {
     Preson,
-    Child
+    Child,
+    toRefs
   },
   data() {
     return {

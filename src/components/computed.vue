@@ -1,9 +1,9 @@
 <template>
   <div class="child-wrap">
     {{ title }}
-    姓：{{ info.firstName }}
+    姓：<input v-model="info.firstName">
     <br>
-    名：{{ info.lastName }}
+    名：<input v-model="info.lastName">
     <br>
     全名：{{ fullName }}
     <br>

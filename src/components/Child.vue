@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-23 22:52:45
- * @LastEditTime: 2024-01-26 09:25:28
+ * @LastEditTime: 2024-01-28 15:20:12
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -37,6 +37,12 @@ function handleClick() {
 function handleClickC(){
   mydata.value.a.b.c += 100
 }
+
+console.time('myTimer');
+setTimeout(() => {
+  // 执行一些代码
+}, 1000);
+console.timeEnd('myTimer');
 </script>
 <style  scoped>
 .child {

@@ -57,6 +57,6 @@ export default {
 }
 h3 {
   margin: 0;
-  background: #ccc;
+  background: #cc7b7b;
 }
 </style>

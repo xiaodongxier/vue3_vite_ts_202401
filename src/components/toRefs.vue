@@ -1,5 +1,5 @@
 <template>
-  <div class="wrap">
+  <div class="child-wrap">
     1
 
 

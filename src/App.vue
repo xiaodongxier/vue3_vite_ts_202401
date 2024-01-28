@@ -55,4 +55,7 @@ export default {
   padding: 20px;
   margin-top: 20px;
 }
+h3 {
+  margin: 0;
+}
 </style>

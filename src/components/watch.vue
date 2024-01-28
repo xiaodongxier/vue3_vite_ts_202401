@@ -1,6 +1,6 @@
 <template>
   <div class="child-wrap">
-    <h5>{{title}}</h5>
+    <h3>{{title}}</h3>
 
 
 

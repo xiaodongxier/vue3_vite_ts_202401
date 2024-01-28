@@ -37,8 +37,12 @@ function fullName1(){
 // })
 
 const fullName = computed(()=>{
-  console.log("computed调用了一次");
-  return info.firstName.slice(0,1).toUpperCase() + info.firstName.slice(1) + "-" +  info.lastName
+  get(){
+    return '1'
+  },
+  set(){
+    return '2'
+  },
 })
 
 

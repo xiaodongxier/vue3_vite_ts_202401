@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-28 17:58:58
- * @LastEditTime: 2024-01-28 21:41:49
+ * @LastEditTime: 2024-01-28 21:43:48
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -29,6 +29,7 @@ const stopWatch =  watch(sum, (newValue, oldValue)=> {
   if(newValue > 5){
     stopWatch()
     console.log("停止监听");
+    title.value = "停止监听"
   }
 })
 </script>

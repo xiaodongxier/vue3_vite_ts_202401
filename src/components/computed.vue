@@ -35,5 +35,10 @@ const fullName = computed(()=>{
   return info.firstName.slice(0,1).toUpperCase() + info.firstName.slice(1) + "-" +  info.lastName
 })
 
+
+
+function fullName2(){
+  console.log("方法调用了一次");
+}
 </script>
 <style lang="" scoped></style>

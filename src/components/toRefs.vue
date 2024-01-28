@@ -8,6 +8,7 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue';
 const n = ref(0);
 console.log(n.value);
 </script>

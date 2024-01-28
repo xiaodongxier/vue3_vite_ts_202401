@@ -45,8 +45,8 @@ const fullName = computed({
      const [arr1,arr2] = val.split("-");
     console.log("set方法被调用了,arr1",arr1);
     console.log("set方法被调用了,arr2",arr2);
-    info.firstName = arr1
-    info.lastName = arr2
+    info.firstName.value = arr1
+    info.lastName.value = arr2
   },
 })
 

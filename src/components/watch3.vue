@@ -57,8 +57,7 @@ function handleInfo(){
 
 function handleAllInfo(){
   sum.info = {
-    address : "广州",
-    gender : "男"
+    address : "广州"
   }
 }
 

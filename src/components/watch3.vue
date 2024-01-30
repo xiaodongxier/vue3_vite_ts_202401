@@ -59,7 +59,7 @@ function handleInfo(){
 //   console.log("oldVal", oldVal);
 // })
 
-watch(()=> sum.info, (newVal, oldVal)=> {
+watch(sum.info, (newVal, oldVal)=> {
   console.log("newVal", newVal);
   console.log("oldVal", oldVal);
 })

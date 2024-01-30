@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-28 17:58:58
- * @LastEditTime: 2024-01-30 22:51:01
+ * @LastEditTime: 2024-01-30 22:59:42
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -22,7 +22,7 @@
 
 <script setup lang="ts">
 import { reactive, ref , watch} from 'vue';
-const title = ref("watch相关-监视reactive定义的对象类型")
+const title = ref("watch相关-监视reactive/ref定义的数据(对象类型)某个属性")
 const sum = reactive({
   name: "wang",
   age : 18

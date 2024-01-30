@@ -14,7 +14,7 @@
     <br>
     <button @click="handleName">切换姓名</button>
     <button @click="handleAge">切换年龄</button>
-    <button @click="handleAge">切换所</button>
+    <button @click="handleAge">切换所有</button>
 
 
   </div>

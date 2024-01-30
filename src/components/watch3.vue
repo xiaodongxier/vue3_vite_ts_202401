@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-28 17:58:58
- * @LastEditTime: 2024-01-30 23:06:48
+ * @LastEditTime: 2024-01-30 23:09:14
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -62,7 +62,7 @@ function handleInfo(){
 watch(sum.info, (newVal, oldVal)=> {
   console.log("newVal", newVal);
   console.log("oldVal", oldVal);
-})
+}, {depth:true})
 
 </script>
 <style lang="" scoped></style>

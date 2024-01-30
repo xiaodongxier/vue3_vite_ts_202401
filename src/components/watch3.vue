@@ -45,7 +45,7 @@ function handleSum() {
 }
 
 // 监视 reactive 定义的数据，默认开启深度监视
-watch(()=>{sum.name}, (newVal, oldVal)=> {
+watch(()=>{return sum.name}, (newVal, oldVal)=> {
   console.log("newVal", newVal);
   console.log("oldVal", oldVal);
 })

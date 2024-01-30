@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:20:17
- * @LastEditTime: 2024-01-28 15:43:28
+ * @LastEditTime: 2024-01-30 22:37:55
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -12,6 +12,7 @@
     <computed/>
     <watch/>
     <watch1/>
+    <watch2/>
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import toRefs from './components/toRefs.vue';
 import computed from './components/computed.vue';
 import watch from './components/watch.vue';
 import watch1 from './components/watch1.vue';
+import watch2 from './components/watch2.vue';
 
 export default {
   name: 'test',
@@ -31,7 +33,8 @@ export default {
     toRefs,
     computed,
     watch,
-    watch1
+    watch1,
+    watch2
   },
   data() {
     return {

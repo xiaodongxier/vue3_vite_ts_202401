@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-28 17:58:58
- * @LastEditTime: 2024-01-30 22:21:11
+ * @LastEditTime: 2024-01-30 22:22:51
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -31,6 +31,9 @@ function handleName(){
   sum.value.name += "~"
 }
 
+function handleAge(){
+  sum.value.age += 1
+}
 
 
 

@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-28 17:58:58
- * @LastEditTime: 2024-01-30 23:05:21
+ * @LastEditTime: 2024-01-30 23:06:48
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -17,6 +17,7 @@
     <button @click="handleName">切换姓名</button>
     <button @click="handleAge">切换年龄</button>
     <button @click="handleSum">切换所有</button>
+    <button @click="handleInfo">切换信息</button>
 
 
   </div>
@@ -47,6 +48,10 @@ function handleSum() {
     name: "hahha",
     age : 28
   })
+}
+
+function handleInfo(){
+  sum.info.address = "上海"
 }
 
 // watch(()=> sum.name, (newVal, oldVal)=> {

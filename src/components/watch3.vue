@@ -47,10 +47,10 @@ function handleSum() {
   })
 }
 
-watch(()=> sum.name, (newVal, oldVal)=> {
-  console.log("newVal", newVal);
-  console.log("oldVal", oldVal);
-})
+// watch(()=> sum.name, (newVal, oldVal)=> {
+//   console.log("newVal", newVal);
+//   console.log("oldVal", oldVal);
+// })
 
 watch(()=> sum.info, (newVal, oldVal)=> {
   console.log("newVal", newVal);

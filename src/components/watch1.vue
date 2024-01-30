@@ -11,6 +11,8 @@
     姓名：{{ sum.name }}
     <br>
     年龄：{{ sum.age }}
+    <br>
+    <button @click="handleName">切换姓名</button>
 
 
   </div>

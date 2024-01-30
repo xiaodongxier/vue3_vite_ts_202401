@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-28 17:58:58
- * @LastEditTime: 2024-01-30 22:22:51
+ * @LastEditTime: 2024-01-30 22:25:47
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -38,7 +38,10 @@ function handleAge(){
 
 
 
-
+watch(sum, (newVal, oldVal)=> {
+  console.log("newVal", newVal);
+  console.log("oldVal", oldVal);
+})
 
 </script>
 <style lang="" scoped></style>

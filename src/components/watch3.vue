@@ -12,6 +12,8 @@
     <br>
     年龄：{{ sum.age }}
     <br>
+    信息：{{ sum.info }}
+    <br>
     <button @click="handleName">切换姓名</button>
     <button @click="handleAge">切换年龄</button>
     <button @click="handleSum">切换所有</button>

@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-22 23:20:17
- * @LastEditTime: 2024-01-30 22:37:55
+ * @LastEditTime: 2024-01-30 22:58:11
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -13,6 +13,7 @@
     <watch/>
     <watch1/>
     <watch2/>
+    <watch3/>
   </div>
 </template>
 
@@ -24,6 +25,7 @@ import computed from './components/computed.vue';
 import watch from './components/watch.vue';
 import watch1 from './components/watch1.vue';
 import watch2 from './components/watch2.vue';
+import watch3 from './components/watch3.vue';
 
 export default {
   name: 'test',
@@ -34,7 +36,8 @@ export default {
     computed,
     watch,
     watch1,
-    watch2
+    watch2,
+    watch3
   },
   data() {
     return {

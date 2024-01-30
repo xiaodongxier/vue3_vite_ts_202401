@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-28 17:58:58
- * @LastEditTime: 2024-01-30 23:02:41
+ * @LastEditTime: 2024-01-30 23:05:21
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -25,7 +25,10 @@ import { reactive, ref , watch} from 'vue';
 const title = ref("watch相关-监视reactive/ref定义的数据(对象类型)某个属性")
 const sum = reactive({
   name: "wang",
-  age : 18
+  age : 18,
+  info : {
+    address : "北京"
+  }
 });
 
 function handleName(){
@@ -45,6 +48,11 @@ function handleSum() {
 }
 
 watch(()=> sum.name, (newVal, oldVal)=> {
+  console.log("newVal", newVal);
+  console.log("oldVal", oldVal);
+})
+
+watch(()=> sum.info, (newVal, oldVal)=> {
   console.log("newVal", newVal);
   console.log("oldVal", oldVal);
 })

@@ -38,7 +38,7 @@ function handleAge(){
 
 
 
-watch(sum.name, (newVal, oldVal)=> {
+watch('sum.name', (newVal, oldVal)=> {
   console.log("newVal", newVal);
   console.log("oldVal", oldVal);
 })

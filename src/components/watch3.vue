@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-28 17:58:58
- * @LastEditTime: 2024-01-30 23:10:38
+ * @LastEditTime: 2024-01-30 23:12:54
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -66,7 +66,15 @@ function handleAllInfo(){
 //   console.log("oldVal", oldVal);
 // })
 
-watch(sum.info, (newVal, oldVal)=> {
+// // 只监听对象里面的数据
+// watch(sum.info, (newVal, oldVal)=> {
+//   console.log("newVal", newVal);
+//   console.log("oldVal", oldVal);
+// })
+
+
+// 只监听对象里面的数据
+watch(()=>sum.info, (newVal, oldVal)=> {
   console.log("newVal", newVal);
   console.log("oldVal", oldVal);
 })

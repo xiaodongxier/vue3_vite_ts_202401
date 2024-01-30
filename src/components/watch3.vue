@@ -73,11 +73,17 @@ function handleAllInfo(){
 // })
 
 
-// 只监听对象里面的数据
+// // 只监听整个对象，单独的监听不到
+// watch(()=>sum.info, (newVal, oldVal)=> {
+//   console.log("newVal", newVal);
+//   console.log("oldVal", oldVal);
+// })
+
+// 只监听整个对象，单独的监听不到
 watch(()=>sum.info, (newVal, oldVal)=> {
   console.log("newVal", newVal);
   console.log("oldVal", oldVal);
-})
+}, {deep:true})
 
 </script>
 <style lang="" scoped></style>

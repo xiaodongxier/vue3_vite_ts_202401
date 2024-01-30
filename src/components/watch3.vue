@@ -69,7 +69,7 @@ function handleAllInfo(){
 watch(sum.info, (newVal, oldVal)=> {
   console.log("newVal", newVal);
   console.log("oldVal", oldVal);
-}, {deep:true})
+})
 
 </script>
 <style lang="" scoped></style>

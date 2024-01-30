@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-28 17:58:58
- * @LastEditTime: 2024-01-28 21:49:50
+ * @LastEditTime: 2024-01-30 22:18:42
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -16,7 +16,10 @@
 <script setup lang="ts">
 import { ref , watch} from 'vue';
 const title = ref("watch相关-监视ref定义的对象类型")
-const sum = ref(0);
+const sum = ref({
+  name: "wang",
+  age : 18
+});
 
 
 

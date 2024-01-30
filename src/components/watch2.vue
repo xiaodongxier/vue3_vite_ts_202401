@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-28 17:58:58
- * @LastEditTime: 2024-01-30 22:41:55
+ * @LastEditTime: 2024-01-30 22:43:33
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -45,13 +45,10 @@ function handleSum() {
   })
 }
 
-
+// 监视 reactive 定义的数据，默认开启深度监视
 watch(sum, (newVal, oldVal)=> {
   console.log("newVal", newVal);
   console.log("oldVal", oldVal);
-},
-{
-  deep:true
 })
 
 </script>

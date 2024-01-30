@@ -8,7 +8,7 @@
   <div class="child-wrap">
     <h3>{{title}}</h3>
     <br>
-    姓名：{{ sum..name }}
+    姓名：{{ sum.name }}
     <br>
     年龄：{{ sum.age }}
 

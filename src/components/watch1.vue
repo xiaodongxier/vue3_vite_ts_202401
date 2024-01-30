@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-28 17:58:58
- * @LastEditTime: 2024-01-30 22:25:47
+ * @LastEditTime: 2024-01-30 22:28:28
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -36,6 +36,13 @@ function handleAge(){
   sum.value.age += 1
 }
 
+
+function handleSum() {
+  sum = {
+    name: "hahha",
+    age : 28
+  }
+}
 
 
 watch(sum, (newVal, oldVal)=> {

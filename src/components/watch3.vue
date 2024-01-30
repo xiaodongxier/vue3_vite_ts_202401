@@ -62,7 +62,7 @@ function handleInfo(){
 watch(sum.info, (newVal, oldVal)=> {
   console.log("newVal", newVal);
   console.log("oldVal", oldVal);
-}, {depth:true})
+}, {deep:true})
 
 </script>
 <style lang="" scoped></style>

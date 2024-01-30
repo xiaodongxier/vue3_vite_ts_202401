@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-28 17:58:58
- * @LastEditTime: 2024-01-30 22:37:21
+ * @LastEditTime: 2024-01-30 22:41:55
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -39,10 +39,10 @@ function handleAge(){
 
 
 function handleSum() {
-  sum = {
+  Object.assign(sum,{
     name: "hahha",
     age : 28
-  }
+  })
 }
 
 

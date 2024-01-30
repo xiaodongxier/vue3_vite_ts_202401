@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-28 17:58:58
- * @LastEditTime: 2024-01-30 22:18:42
+ * @LastEditTime: 2024-01-30 22:21:11
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -23,6 +23,11 @@ const sum = ref({
   name: "wang",
   age : 18
 });
+
+
+function handleName(){
+  sum.value.name += "~"
+}
 
 
 

@@ -20,11 +20,25 @@
   <div>{{ box1[0].name }}</div>
   <input type="text" v-model="box1[0].name" />
   <button @click="handleClick2">handleClick2</button>
+  <hr>
+  <div>{{ box2.name }} --- {{ box2.age }}</div>
+  <button @click="box22">box2</button>
 </template>
 
 
 <script setup lang="ts">
 import { reactive, ref } from 'vue';
+
+
+let box2 = reactive({
+  name: "box2",
+  age: 220
+})
+
+function box22() {
+  box2 = Object.assign(box2, { name: "box2" + Math.random(), age: 220 })
+  // box2 = { name: "box2" + Math.random(), age: 220 }
+}
 
 
 let box1 = ref([

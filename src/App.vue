@@ -1,6 +1,6 @@
 <!--
  * @Date: 2024-01-19 15:38:25
- * @LastEditTime: 2024-12-11 23:22:35
+ * @LastEditTime: 2024-12-12 12:42:18
  * @Author: wangyongjie
  * @Note:  
 -->
@@ -13,11 +13,11 @@
 
 <script lang="ts">
 export default {
-  // data() {
-  //   return {
-  //     name: 'Hello World',
-  //   };
-  // }
+  data() {
+    return {
+      name: 'Hello World',
+    };
+  },
   beforeCreate() {
     console.log('beforeCreate');
   },

@@ -11,25 +11,70 @@
   </div>
   <input type="text" v-model="name" />
   <button @click="setNsme">setNsme</button>
+  <hr>
+  <ul>
+    <li v-for="item in games" :key="item.name">{{ item.name }}</li>
+  </ul>
+  <button @click="handleGames">切换</button>
+  <hr>
+  <div>{{ box1[0].name }}</div>
+  <input type="text" v-model="box1[0].name" />
+  <button @click="handleClick2">handleClick2</button>
 </template>
 
 
 <script setup lang="ts">
 import { reactive, ref } from 'vue';
 
+
+let box1 = ref([
+  {
+    name: "bix",
+    age: 22
+  },
+  {
+    name: "aa",
+    age: 33
+  }
+])
+
+function handleClick2() {
+  box1[0].name = "bix" + Math.random()
+  console.log(box1)
+}
+
+
+let games = reactive([
+  {
+    name: "英雄联盟",
+    age: 22
+  },
+  {
+    name: "王者荣耀",
+    age: 22
+  },
+  {
+    name: "绝地求生",
+    age: 22
+  },
+])
+
+function handleGames() {
+  games[0].name = "英雄联盟" + Math.random()
+  console.log(games)
+}
+
+
+
+
+
 let card = reactive({
   name: "wangyongjie",
   age: 22
 })
-
-console.log(card)
-
-
 function addClick() {
   card.age++
 }
-
-
 
 
 

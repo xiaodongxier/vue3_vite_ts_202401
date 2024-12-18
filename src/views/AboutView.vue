@@ -1,24 +1,24 @@
 <!--
  * @Date: 2024-01-19 15:38:25
- * @LastEditTime: 2024-12-18 07:35:17
+ * @LastEditTime: 2024-12-18 23:29:24
  * @Author: wangyongjie
  * @Note:  
 -->
 <template>
   <div class="about">
-    <input type="number" v-model.number="count1" />
+    <input type="number" v-model.number="count1.value" />
     <br>
-    <input type="number" v-model.number="count2" />
-    <div>{{ count1 + count2 }}</div>
+    <input type="number" v-model.number="count2.value" />
+    <div>{{ count1.value + count2.value }}</div>
 
   </div>
 </template>
 
 <script lang="ts" setup name="AboutView">
-import { ref, watch } from 'vue'
+import { ref, watch, reactive } from 'vue'
 
-const count1 = ref(0);
-const count2 = ref(0);
+const count1 = reactive({ value: 0 });
+const count2 = reactive({ value: 0 });
 
 const stopWatch = watch(count1, (newVal, oldVal) => {
   console.log(newVal, oldVal)
